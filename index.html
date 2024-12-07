@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Location Weather Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUglnotYkJ3XosC-HX7a97Kf-vFaJMnGk"></script>
+</head>
+
+<body>
+    <div class="card">
+        <button id="locationBtn">Obtain Location</button>
+        <div class="error">
+            <p>Could not fetch location</p>
+        </div>
+
+        <div id="map" style="height: 300px;"></div>
+
+        <div class="weather">
+            <img src="images/clear.png" class="weather-icon" id="weatherIcon">
+            <h2 class="city">Your Location</h2>
+            <h1 class="temp">--°C</h1>
+            <div class="details">
+                <p class="humidity">Humidity: --%</p>
+                <p class="wind">Wind Speed: -- km/h</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+button {
+    background: #ebfffc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: 14px;
+}
+
+.weather {
+    display: none;
+    margin-top: 20px;
+}
+
+.weather-icon {
+    width: 100px;
+    margin: 10px auto;
+}
+
+#map {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
