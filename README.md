@@ -21,7 +21,6 @@ This project is a web application that dynamically displays weather information 
 - **HTML5**: Structure and content
 - **CSS3**: Styling and layout
 - **JavaScript**: Functionality and interactivity
-- **Leaflet.js**: Map visualization
 - **OpenWeatherMap API**: Fetching weather data
 - **Geolocation API**: Fetching user’s latitude and longitude
 
