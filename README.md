@@ -1,6 +1,6 @@
 # User Location Weather Map
 
-This project is a web application that dynamically displays weather information based on the user's location and visualizes it on an interactive map using **Leaflet.js** and the **OpenWeatherMap API**. 
+This project is a web application that dynamically displays weather information based on the user's location and visualizes it on an interactive map using the **OpenWeatherMap API**. 
 
 ---
 
